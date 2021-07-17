@@ -38,8 +38,10 @@
         </ul>
         {% endif %}
 
-        <p>{{ site.categories.jekyll }} is here category?</p>
-
+        {% for post in {{ site.categories.jekyll }} %}
+          <li> {{ post.title  }} </li>
+        {% endfor %}
+        
       </header>
       <section>
 
