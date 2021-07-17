@@ -2,9 +2,8 @@
 title: "TIL - 2021.07.16"
 date: 2021-07-16 21:21:56
 categories: jekyll update
-tags : test, TIL
+tags : [test, TIL]
 permalink: /2021071601/
-
 ---
 
 # 오늘 한 일
