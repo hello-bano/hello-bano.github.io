@@ -7,10 +7,6 @@ layout: default
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
-{% for category in site.categories %}
-  <li> {{category}} </li>
-{% endfor %}
-
 {{content}}
 
 {% if page.tags %}
