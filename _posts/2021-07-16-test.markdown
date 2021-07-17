@@ -8,6 +8,7 @@ permalink: /2021071601/
 # 오늘 한 일
 - GitHub Pages 생성 및 Jekyll theme 적용
 blah blah
+
 ```bash
 # ruby 설치 이후
 % echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
@@ -27,5 +28,11 @@ $ git init
 $ gitt add remote origin
 $ git config user.name
 $ git 
+```
 
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
 ```
