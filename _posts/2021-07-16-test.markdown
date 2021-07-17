@@ -1,8 +1,31 @@
 ---
-title: "Hello World"
-date: 2019-01-01 01:21:56 -0400
+title: "TIL - 2021.07.16"
+date: 2021-07-16 21:21:56
 categories: jekyll update
-permalink: /test
+permalink: /2021071601/
 ---
-# Hello World
-- 테스트
+
+# 오늘 한 일
+- GitHub Pages 생성 및 Jekyll theme 적용
+blah blah
+```bash
+# ruby 설치 이후
+% echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+% export LDFLAGS="-L/usr/local/opt/ruby/lib"
+% export CPPFLAGS="-I/usr/local/opt/ruby/include"
+% source ~/.bash_profile
+% jekyll new ./
+
+# _config.yml 코드 수정
+% vi _config.yml 
+####################
+수정사항 작성
+####################
+
+# remote git
+$ git init
+$ gitt add remote origin
+$ git config user.name
+$ git 
+
+```
